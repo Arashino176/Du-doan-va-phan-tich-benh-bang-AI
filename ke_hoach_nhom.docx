@@ -1,0 +1,118 @@
+Kế hoạch làm việc nhóm (4 thành viên)
+
+1. Phân công công việc
+
+Thành viên 1 - Team Lead:
+- Quản lý tiến độ dự án
+- Thiết kế kiến trúc tổng thể
+- Review code và merge pull requests
+- Điều phối các buổi họp nhóm
+
+Thành viên 2 - Data Engineer:
+- Xử lý và tiền xử lý dữ liệu
+- Chuẩn bị datasets
+- Xây dựng pipeline dữ liệu
+- Đảm bảo chất lượng dữ liệu
+
+Thành viên 3 - ML Engineer:
+- Phát triển các mô hình AI
+- Tối ưu hóa thuật toán
+- Đánh giá hiệu suất mô hình
+- Viết tài liệu kỹ thuật
+
+Thành viên 4 - Full-stack Developer:
+- Phát triển giao diện người dùng
+- Xây dựng API backend
+- Tích hợp mô hình vào hệ thống
+- Triển khai ứng dụng
+
+2. Timeline dự án (12 tuần)
+
+Tuần 1-2:
+- Thu thập và phân tích yêu cầu
+- Thiết kế kiến trúc hệ thống
+- Chuẩn bị môi trường phát triển
+
+Tuần 3-4:
+- Xử lý và chuẩn hóa dữ liệu
+- Phát triển các module cơ bản
+- Thiết kế database
+
+Tuần 5-7:
+- Huấn luyện mô hình AI
+- Phát triển API backend
+- Xây dựng giao diện người dùng
+
+Tuần 8-9:
+- Tích hợp các thành phần
+- Testing và debug
+- Tối ưu hiệu suất
+
+Tuần 10-11:
+- Kiểm thử hệ thống
+- Viết tài liệu
+- Fix bugs
+
+Tuần 12:
+- Hoàn thiện sản phẩm
+- Chuẩn bị demo
+- Tổng kết dự án
+
+3. Quy trình làm việc
+
+Họp nhóm thường xuyên:
+- Stand-up meeting hàng ngày (15-20 phút)
+- Sprint planning mỗi 2 tuần
+- Retrospective cuối sprint
+- Tech talk chia sẻ kiến thức mỗi tuần
+
+Quy tắc giao tiếp:
+- Sử dụng GitHub Issues để track công việc
+- Trao đổi qua Discord/Slack
+- Documentation trên GitHub Wiki
+- Code review trước khi merge
+
+4. Giải quyết xung đột
+
+Nguyên tắc cơ bản:
+- Lắng nghe ý kiến của mọi người
+- Tôn trọng quan điểm khác biệt
+- Tập trung vào giải pháp
+- Đặt lợi ích nhóm lên trên
+
+Quy trình xử lý:
+1. Xác định nguyên nhân xung đột
+2. Thảo luận công khai và khách quan
+3. Đề xuất các giải pháp thay thế
+4. Bỏ phiếu nếu cần thiết
+5. Ghi nhận bài học kinh nghiệm
+
+5. Đánh giá hiệu quả
+
+Metrics đánh giá:
+- Số lượng features hoàn thành
+- Chất lượng code (qua code review)
+- Độ chính xác của mô hình
+- Thời gian hoàn thành tasks
+- Số lượng bugs được fix
+- Đóng góp của mỗi thành viên
+
+Review định kỳ:
+- Đánh giá KPIs mỗi sprint
+- Feedback 360 độ
+- Cập nhật kế hoạch nếu cần
+- Ghi nhận và khen thưởng thành tích
+
+6. Chiến lược hỗ trợ
+
+Chia sẻ kiến thức:
+- Tổ chức session chia sẻ kỹ thuật
+- Pair programming khi cần
+- Documentation chi tiết
+- Code review cẩn thận
+
+Hỗ trợ lẫn nhau:
+- Mentor/mentee system
+- Cross-training giữa các roles
+- Backup plan cho tasks quan trọng
+- Knowledge sharing repository

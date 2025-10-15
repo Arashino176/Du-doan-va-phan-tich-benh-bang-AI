@@ -1,0 +1,43 @@
+Tham gia cộng đồng và Giấy phép phần mềm
+
+1. Tham gia cộng đồng
+
+Các kênh giao tiếp và đóng góp:
+- GitHub Issues: Nơi báo cáo lỗi, đề xuất tính năng mới
+- Pull Requests: Đóng góp code trực tiếp vào dự án
+- Discussions: Thảo luận về các vấn đề liên quan đến dự án
+- Documentation: Đóng góp tài liệu và hướng dẫn sử dụng
+
+Cách thức đóng góp:
+- Fork repository về tài khoản cá nhân
+- Tạo branch mới cho tính năng/fix bug
+- Commit và push code lên repository cá nhân
+- Tạo Pull Request để đề xuất thay đổi
+- Tham gia review code và thảo luận
+
+2. Giấy phép phần mềm
+
+Dự án sử dụng giấy phép MIT License, một trong những giấy phép phần mềm mã nguồn mở phổ biến nhất:
+
+Các quyền của người dùng:
+- Tự do sử dụng phần mềm cho mọi mục đích
+- Tự do nghiên cứu và sửa đổi mã nguồn
+- Tự do phân phối phần mềm
+- Tự do cải tiến và phát hành các phiên bản sửa đổi
+
+Nghĩa vụ của người dùng:
+- Giữ nguyên thông báo bản quyền và giấy phép
+- Không yêu cầu trách nhiệm pháp lý từ tác giả
+- Công bố mã nguồn khi phân phối phần mềm
+
+So sánh với các giấy phép khác:
+- GPL: Yêu cầu nghiêm ngặt hơn về việc chia sẻ mã nguồn
+- Apache: Có thêm điều khoản về bằng sáng chế
+- BSD: Tương tự MIT nhưng có một số điều khoản khác
+- MPL: Cho phép kết hợp với mã nguồn đóng
+
+Lý do chọn MIT License:
+- Đơn giản và dễ hiểu
+- Tự do tối đa cho người dùng
+- Phù hợp với mục tiêu phát triển cộng đồng
+- Được chấp nhận rộng rãi trong cộng đồng mã nguồn mở
