@@ -26,39 +26,8 @@ Thành viên 4 - Full-stack Developer:
 - Tích hợp mô hình vào hệ thống
 - Triển khai ứng dụng
 
-2. Timeline dự án (12 tuần)
 
-Tuần 1-2:
-- Thu thập và phân tích yêu cầu
-- Thiết kế kiến trúc hệ thống
-- Chuẩn bị môi trường phát triển
-
-Tuần 3-4:
-- Xử lý và chuẩn hóa dữ liệu
-- Phát triển các module cơ bản
-- Thiết kế database
-
-Tuần 5-7:
-- Huấn luyện mô hình AI
-- Phát triển API backend
-- Xây dựng giao diện người dùng
-
-Tuần 8-9:
-- Tích hợp các thành phần
-- Testing và debug
-- Tối ưu hiệu suất
-
-Tuần 10-11:
-- Kiểm thử hệ thống
-- Viết tài liệu
-- Fix bugs
-
-Tuần 12:
-- Hoàn thiện sản phẩm
-- Chuẩn bị demo
-- Tổng kết dự án
-
-3. Quy trình làm việc
+2. Quy trình làm việc
 
 Họp nhóm thường xuyên:
 - Stand-up meeting hàng ngày (15-20 phút)
@@ -72,7 +41,7 @@ Quy tắc giao tiếp:
 - Documentation trên GitHub Wiki
 - Code review trước khi merge
 
-4. Giải quyết xung đột
+3. Giải quyết xung đột
 
 Nguyên tắc cơ bản:
 - Lắng nghe ý kiến của mọi người
@@ -86,8 +55,7 @@ Quy trình xử lý:
 3. Đề xuất các giải pháp thay thế
 4. Bỏ phiếu nếu cần thiết
 5. Ghi nhận bài học kinh nghiệm
-
-5. Đánh giá hiệu quả
+6. Đánh giá hiệu quả
 
 Metrics đánh giá:
 - Số lượng features hoàn thành
@@ -97,13 +65,13 @@ Metrics đánh giá:
 - Số lượng bugs được fix
 - Đóng góp của mỗi thành viên
 
-Review định kỳ:
+4.Review định kỳ:
 - Đánh giá KPIs mỗi sprint
 - Feedback 360 độ
 - Cập nhật kế hoạch nếu cần
 - Ghi nhận và khen thưởng thành tích
 
-6. Chiến lược hỗ trợ
+5. Chiến lược hỗ trợ
 
 Chia sẻ kiến thức:
 - Tổ chức session chia sẻ kỹ thuật
