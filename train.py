@@ -4,7 +4,7 @@ from preprocess import load_data, preprocess_data
 from model import DiseasePredictor
 from evaluate import evaluate_model, analyze_with_shap, explain_predictions_with_lime, save_model, save_evaluation_report
 
-def train_pipeline(disease_type, n_estimators=100):
+def train_pipeline(disease_type, n_estimators=100, learning_rate=0.1, max_depth=3):
     """
     Pipeline huấn luyện hoàn chỉnh
     """
@@ -31,7 +31,11 @@ def train_pipeline(disease_type, n_estimators=100):
     
     # 3. Khởi tạo và huấn luyện mô hình
     print("\n3. Training model...")
-    model = DiseasePredictor(n_estimators=n_estimators)
+    model = DiseasePredictor(
+        n_estimators=n_estimators,
+        learning_rate=learning_rate,
+        max_depth=max_depth
+    )
     model.train(X_train, y_train)
     print("Model đã được huấn luyện xong")
     
@@ -59,8 +63,12 @@ def main():
     parser.add_argument('--disease', type=str, default=['heart'], nargs='+',
                       choices=['heart', 'diabetes', 'breast_cancer', 'all'],
                       help='Loại bệnh cần dự đoán. Có thể chọn nhiều bệnh hoặc "all" để huấn luyện tất cả.')
-    parser.add_argument('--n_estimators', type=int, default=100,
-                      help='Số lượng cây trong Random Forest')
+    parser.add_argument('--n_estimators', type=int, default=150,
+                      help='Số lượng cây (boosting stages) trong Gradient Boosting.')
+    parser.add_argument('--learning_rate', type=float, default=0.1,
+                      help='Tốc độ học (learning rate) cho Gradient Boosting.')
+    parser.add_argument('--max_depth', type=int, default=3,
+                      help='Độ sâu tối đa của mỗi cây trong Gradient Boosting.')
     
     args = parser.parse_args()
     
@@ -72,7 +80,9 @@ def main():
     for disease in diseases_to_train:
         train_pipeline(
             disease_type=disease,
-            n_estimators=args.n_estimators
+            n_estimators=args.n_estimators,
+            learning_rate=args.learning_rate,
+            max_depth=args.max_depth
         )
 
 if __name__ == '__main__':

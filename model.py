@@ -1,26 +1,33 @@
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix
 import shap
 
 class DiseasePredictor:
-    def __init__(self, n_estimators=100, random_state=42):
+    def __init__(self, n_estimators=100, random_state=42, learning_rate=0.1, max_depth=3):
         """
-        Khởi tạo mô hình với RandomForestClassifier
+        Khởi tạo mô hình với GradientBoostingClassifier
         
         Parameters:
         -----------
         n_estimators : int, default=100
-            Số lượng cây trong rừng
+            Số lượng cây (boosting stages) để thực hiện.
         random_state : int, default=42
             Seed để đảm bảo kết quả có thể tái tạo lại được
+        learning_rate : float, default=0.1
+            Tốc độ học của mô hình.
+        max_depth : int, default=3
+            Độ sâu tối đa của mỗi cây.
         """
-        self.model = RandomForestClassifier(
+        # Thay đổi từ RandomForestClassifier sang GradientBoostingClassifier
+        self.model = GradientBoostingClassifier(
             n_estimators=n_estimators,
-            random_state=random_state
+            random_state=random_state,
+            learning_rate=learning_rate,
+            max_depth=max_depth
         )
         self.scaler = StandardScaler()
         self.feature_names = None

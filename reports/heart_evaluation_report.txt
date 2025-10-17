@@ -1,7 +1,7 @@
 === Model Evaluation Report ===
 
-accuracy: 0.985
+accuracy: 0.976
 precision: 0.990
-recall: 0.981
-f1: 0.986
-roc_auc: 0.999
+recall: 0.962
+f1: 0.976
+roc_auc: 0.995
