@@ -60,7 +60,7 @@ def train_pipeline(disease_type, n_estimators=100, learning_rate=0.1, max_depth=
 
 def main():
     parser = argparse.ArgumentParser(description='Train disease prediction model')
-    parser.add_argument('--disease', type=str, default=['heart'], nargs='+',
+    parser.add_argument('--disease', type=str, default=['all'], nargs='+',
                       choices=['heart', 'diabetes', 'breast_cancer', 'all'],
                       help='Loại bệnh cần dự đoán. Có thể chọn nhiều bệnh hoặc "all" để huấn luyện tất cả.')
     parser.add_argument('--n_estimators', type=int, default=150,
